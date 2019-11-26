@@ -1,0 +1,127 @@
+# vsim -c apbuart_test 
+# Start time: 12:12:07 on Nov 26,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apbuart.vg(307): (vopt-2685) [TFMPC] - Too few port connections for 'r_reg_cTSN_0_'.  Expected 6, found 5.
+# ** Warning: apbuart.vg(307): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: apbuart.vg(357): (vopt-2685) [TFMPC] - Too few port connections for 'r_reg_rXF_0_'.  Expected 6, found 5.
+# ** Warning: apbuart.vg(357): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(12898): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(12899): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(12971): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(12972): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(3164): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(3165): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(3166): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(3167): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(3168): (vopt-2635) UDP table entry is redundant
+# ** Warning: ../../../../lib/tech/hcmos8d/simprims/mk180rtsc_typical.v(3169): (vopt-2635) UDP table entry is redundant
+# //  Questa Sim-64
+# //  Version 10.4a linux_x86_64 Mar 24 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.apbuart_test(fast)
+# Loading work.RT8_SDF01D1(fast)
+# Loading work.RT8_DF01EHD1(fast)
+# Loading work.RT8_SDF01D2(fast)
+# Loading work.RT8_DF01HD2(fast)
+# Loading work.RT8_IN01D2(fast)
+# Loading work.RT8_NR02D1(fast)
+# Loading work.RT8_OAN1D1(fast)
+# Loading work.RT8_ND02D1(fast)
+# Loading work.RT8_AN03D2(fast)
+# Loading work.RT8_NR02BD1(fast)
+# Loading work.RT8_OAN1BBD1(fast)
+# Loading work.RT8_ND03BD1(fast)
+# Loading work.RT8_NR03D1(fast)
+# Loading work.RT8_OAN6D1(fast)
+# Loading work.RT8_ND02BD1(fast)
+# Loading work.RT8_AON1BBD1(fast)
+# Loading work.RT8_ND03D1(fast)
+# Loading work.RT8_OR04D1(fast)
+# Loading work.RT8_AON6D1(fast)
+# Loading work.RT8_AON1D1(fast)
+# Loading work.RT8_OAN2D1(fast)
+# Loading work.RT8_AO04D2(fast)
+# Loading work.RT8_AO05D2(fast)
+# Loading work.RT8_AO02D2(fast)
+# Loading work.RT8_AON3D1(fast)
+# Loading work.RT8_IN01D1(fast)
+# Loading work.RT8_AN04D1(fast)
+# Loading work.RT8_AN03D1(fast)
+# Loading work.RT8_AN08D2(fast)
+# Loading work.RT8_AAN1D1(fast)
+# Loading work.RT8_AA01D2(fast)
+# Loading work.RT8_ND04D1(fast)
+# Loading work.RT8_AA01D4(fast)
+# Loading work.RT8_OR02D2(fast)
+# Loading work.RT8_AO03D2(fast)
+# Loading work.RT8_AON2D1(fast)
+# Loading work.RT8_AON2BBD1(fast)
+# Loading work.RT8_OAN3D1(fast)
+# Loading work.RT8_AON7D1(fast)
+# Loading work.RT8_AON8D1(fast)
+# Loading work.RT8_OA06D2(fast)
+# Loading work.RT8_OAN4D1(fast)
+# Loading work.RT8_AO08D2(fast)
+# Loading work.RT8_OAN8D1(fast)
+# Loading work.RT8_AO06D2(fast)
+# Loading work.RT8_OAN2BBD1(fast)
+# Loading work.RT8_OON1D1(fast)
+# Loading work.RT8_OO01D2(fast)
+# Loading work.RT8_MXI2D1(fast)
+# Loading work.RT8_OR02D1(fast)
+# ** Warning: (vsim-PLI-3691) apbuart_test.v(3148): Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Region: /apbuart_test/process_rtops File: apbuart_test.v
+#############################################################################
+#  MAX TB Version H-2013.03-SP1
+#  Test Protocol File generated from original file "apbuart.stil"
+#  STIL file version: 1.0
+#############################################################################
+# 
+# XTB: Starting parallel simulation of 150 patterns
+# XTB: Using 0 serial shifts
+# XTB: Begin parallel scan load for pattern 0 (T=200.00 ns, V=3)
+# XTB: Begin parallel scan load for pattern 5 (T=1700.00 ns, V=18)
+# XTB: Begin parallel scan load for pattern 10 (T=3200.00 ns, V=33)
+# XTB: Begin parallel scan load for pattern 15 (T=4700.00 ns, V=48)
+# XTB: Begin parallel scan load for pattern 20 (T=6200.00 ns, V=63)
+# XTB: Begin parallel scan load for pattern 25 (T=7700.00 ns, V=78)
+# XTB: Begin parallel scan load for pattern 30 (T=9200.00 ns, V=93)
+# XTB: Begin parallel scan load for pattern 35 (T=10700.00 ns, V=108)
+# XTB: Begin parallel scan load for pattern 40 (T=12200.00 ns, V=123)
+# XTB: Begin parallel scan load for pattern 45 (T=13700.00 ns, V=138)
+# XTB: Begin parallel scan load for pattern 50 (T=15200.00 ns, V=153)
+# XTB: Begin parallel scan load for pattern 55 (T=16700.00 ns, V=168)
+# XTB: Begin parallel scan load for pattern 60 (T=18200.00 ns, V=183)
+# XTB: Begin parallel scan load for pattern 65 (T=19700.00 ns, V=198)
+# XTB: Begin parallel scan load for pattern 70 (T=21200.00 ns, V=213)
+# XTB: Begin parallel scan load for pattern 75 (T=22700.00 ns, V=228)
+# XTB: Begin parallel scan load for pattern 80 (T=24200.00 ns, V=243)
+# XTB: Begin parallel scan load for pattern 85 (T=25700.00 ns, V=258)
+# XTB: Begin parallel scan load for pattern 90 (T=27200.00 ns, V=273)
+# XTB: Begin parallel scan load for pattern 95 (T=28700.00 ns, V=288)
+# XTB: Begin parallel scan load for pattern 100 (T=30200.00 ns, V=303)
+# XTB: Begin parallel scan load for pattern 105 (T=31700.00 ns, V=318)
+# XTB: Begin parallel scan load for pattern 110 (T=33200.00 ns, V=333)
+# XTB: Begin parallel scan load for pattern 115 (T=34700.00 ns, V=348)
+# XTB: Begin parallel scan load for pattern 120 (T=36200.00 ns, V=363)
+# XTB: Begin parallel scan load for pattern 125 (T=37700.00 ns, V=378)
+# XTB: Begin parallel scan load for pattern 130 (T=39200.00 ns, V=393)
+# XTB: Begin parallel scan load for pattern 135 (T=40700.00 ns, V=408)
+# XTB: Begin parallel scan load for pattern 140 (T=42200.00 ns, V=423)
+# XTB: Begin parallel scan load for pattern 145 (T=43700.00 ns, V=438)
+# XTB: Simulation of 150 patterns completed with 0 errors (time: 45400.00 ns, cycles: 454)
+# 
+# End time: 12:12:11 on Nov 26,2019, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 15

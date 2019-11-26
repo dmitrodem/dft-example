@@ -1,0 +1,829 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `apbuart'";
+    Date "Tue Nov 26 11:51:58 2019";
+    Source "DFT Compiler H-2013.03-SP1";
+}
+Signals {
+    "apbi_pADDR_0_" In;
+    "apbi_pADDR_10_" In;
+    "apbi_pADDR_11_" In;
+    "apbi_pADDR_12_" In;
+    "apbi_pADDR_13_" In;
+    "apbi_pADDR_14_" In;
+    "apbi_pADDR_15_" In;
+    "apbi_pADDR_16_" In;
+    "apbi_pADDR_17_" In;
+    "apbi_pADDR_18_" In;
+    "apbi_pADDR_19_" In;
+    "apbi_pADDR_1_" In;
+    "apbi_pADDR_20_" In;
+    "apbi_pADDR_21_" In;
+    "apbi_pADDR_22_" In;
+    "apbi_pADDR_23_" In;
+    "apbi_pADDR_24_" In;
+    "apbi_pADDR_25_" In;
+    "apbi_pADDR_26_" In;
+    "apbi_pADDR_27_" In;
+    "apbi_pADDR_28_" In;
+    "apbi_pADDR_29_" In;
+    "apbi_pADDR_2_" In;
+    "apbi_pADDR_30_" In;
+    "apbi_pADDR_31_" In;
+    "apbi_pADDR_3_" In;
+    "apbi_pADDR_4_" In;
+    "apbi_pADDR_5_" In;
+    "apbi_pADDR_6_" In;
+    "apbi_pADDR_7_" In;
+    "apbi_pADDR_8_" In;
+    "apbi_pADDR_9_" In;
+    "apbi_pENABLE" In;
+    "apbi_pIRQ_0_" In;
+    "apbi_pIRQ_10_" In;
+    "apbi_pIRQ_11_" In;
+    "apbi_pIRQ_12_" In;
+    "apbi_pIRQ_13_" In;
+    "apbi_pIRQ_14_" In;
+    "apbi_pIRQ_15_" In;
+    "apbi_pIRQ_16_" In;
+    "apbi_pIRQ_17_" In;
+    "apbi_pIRQ_18_" In;
+    "apbi_pIRQ_19_" In;
+    "apbi_pIRQ_1_" In;
+    "apbi_pIRQ_20_" In;
+    "apbi_pIRQ_21_" In;
+    "apbi_pIRQ_22_" In;
+    "apbi_pIRQ_23_" In;
+    "apbi_pIRQ_24_" In;
+    "apbi_pIRQ_25_" In;
+    "apbi_pIRQ_26_" In;
+    "apbi_pIRQ_27_" In;
+    "apbi_pIRQ_28_" In;
+    "apbi_pIRQ_29_" In;
+    "apbi_pIRQ_2_" In;
+    "apbi_pIRQ_30_" In;
+    "apbi_pIRQ_31_" In;
+    "apbi_pIRQ_3_" In;
+    "apbi_pIRQ_4_" In;
+    "apbi_pIRQ_5_" In;
+    "apbi_pIRQ_6_" In;
+    "apbi_pIRQ_7_" In;
+    "apbi_pIRQ_8_" In;
+    "apbi_pIRQ_9_" In;
+    "apbi_pSEL_0_" In;
+    "apbi_pSEL_10_" In;
+    "apbi_pSEL_11_" In;
+    "apbi_pSEL_12_" In;
+    "apbi_pSEL_13_" In;
+    "apbi_pSEL_14_" In;
+    "apbi_pSEL_15_" In;
+    "apbi_pSEL_1_" In;
+    "apbi_pSEL_2_" In;
+    "apbi_pSEL_3_" In;
+    "apbi_pSEL_4_" In;
+    "apbi_pSEL_5_" In;
+    "apbi_pSEL_6_" In;
+    "apbi_pSEL_7_" In;
+    "apbi_pSEL_8_" In;
+    "apbi_pSEL_9_" In;
+    "apbi_pWDATA_0_" In;
+    "apbi_pWDATA_10_" In;
+    "apbi_pWDATA_11_" In;
+    "apbi_pWDATA_12_" In;
+    "apbi_pWDATA_13_" In;
+    "apbi_pWDATA_14_" In;
+    "apbi_pWDATA_15_" In;
+    "apbi_pWDATA_16_" In;
+    "apbi_pWDATA_17_" In;
+    "apbi_pWDATA_18_" In;
+    "apbi_pWDATA_19_" In;
+    "apbi_pWDATA_1_" In;
+    "apbi_pWDATA_20_" In;
+    "apbi_pWDATA_21_" In;
+    "apbi_pWDATA_22_" In;
+    "apbi_pWDATA_23_" In;
+    "apbi_pWDATA_24_" In;
+    "apbi_pWDATA_25_" In;
+    "apbi_pWDATA_26_" In;
+    "apbi_pWDATA_27_" In;
+    "apbi_pWDATA_28_" In;
+    "apbi_pWDATA_29_" In;
+    "apbi_pWDATA_2_" In;
+    "apbi_pWDATA_30_" In;
+    "apbi_pWDATA_31_" In;
+    "apbi_pWDATA_3_" In;
+    "apbi_pWDATA_4_" In;
+    "apbi_pWDATA_5_" In;
+    "apbi_pWDATA_6_" In;
+    "apbi_pWDATA_7_" In;
+    "apbi_pWDATA_8_" In;
+    "apbi_pWDATA_9_" In;
+    "apbi_pWRITE" In;
+    "apbi_sCANEN" In;
+    "apbi_tESTEN" In;
+    "apbi_tESTIN_0_" In;
+    "apbi_tESTIN_1_" In;
+    "apbi_tESTIN_2_" In;
+    "apbi_tESTIN_3_" In;
+    "apbi_tESTOEN" In;
+    "apbi_tESTRST" In;
+    "clk" In;
+    "rst" In;
+    "testen" In;
+    "testin" In;
+    "testrst" In;
+    "uarti_cTSN" In;
+    "uarti_eXTCLK" In;
+    "uarti_rXD" In;
+    "apbo[36]" Out;
+    "apbo[46]" Out;
+    "apbo[47]" Out;
+    "apbo[48]" Out;
+    "apbo[49]" Out;
+    "apbo[50]" Out;
+    "apbo[51]" Out;
+    "apbo[52]" Out;
+    "apbo[53]" Out;
+    "apbo[54]" Out;
+    "apbo[55]" Out;
+    "apbo[37]" Out;
+    "apbo[56]" Out;
+    "apbo[57]" Out;
+    "apbo[58]" Out;
+    "apbo[59]" Out;
+    "apbo[60]" Out;
+    "apbo[61]" Out;
+    "apbo[62]" Out;
+    "apbo[63]" Out;
+    "apbo[64]" Out;
+    "apbo[65]" Out;
+    "apbo[38]" Out;
+    "apbo[66]" Out;
+    "apbo[67]" Out;
+    "apbo[39]" Out;
+    "apbo[40]" Out;
+    "apbo[41]" Out;
+    "apbo[42]" Out;
+    "apbo[43]" Out;
+    "apbo[44]" Out;
+    "apbo[45]" Out;
+    "apbo[4]" Out;
+    "apbo[14]" Out;
+    "apbo[15]" Out;
+    "apbo[16]" Out;
+    "apbo[17]" Out;
+    "apbo[18]" Out;
+    "apbo[19]" Out;
+    "apbo[20]" Out;
+    "apbo[21]" Out;
+    "apbo[22]" Out;
+    "apbo[23]" Out;
+    "apbo[5]" Out;
+    "apbo[24]" Out;
+    "apbo[25]" Out;
+    "apbo[26]" Out;
+    "apbo[27]" Out;
+    "apbo[28]" Out;
+    "apbo[29]" Out;
+    "apbo[30]" Out;
+    "apbo[31]" Out;
+    "apbo[32]" Out;
+    "apbo[33]" Out;
+    "apbo[6]" Out;
+    "apbo[34]" Out;
+    "apbo[35]" Out;
+    "apbo[7]" Out;
+    "apbo[8]" Out;
+    "apbo[9]" Out;
+    "apbo[10]" Out;
+    "apbo[11]" Out;
+    "apbo[12]" Out;
+    "apbo[13]" Out;
+    "apbo[0]" Out;
+    "apbo[1]" Out;
+    "apbo[2]" Out;
+    "apbo[3]" Out;
+    "apbo[68]" Out;
+    "apbo[78]" Out;
+    "apbo[79]" Out;
+    "apbo[80]" Out;
+    "apbo[81]" Out;
+    "apbo[82]" Out;
+    "apbo[83]" Out;
+    "apbo[84]" Out;
+    "apbo[85]" Out;
+    "apbo[86]" Out;
+    "apbo[87]" Out;
+    "apbo[69]" Out;
+    "apbo[88]" Out;
+    "apbo[89]" Out;
+    "apbo[90]" Out;
+    "apbo[91]" Out;
+    "apbo[92]" Out;
+    "apbo[93]" Out;
+    "apbo[94]" Out;
+    "apbo[95]" Out;
+    "apbo[96]" Out;
+    "apbo[97]" Out;
+    "apbo[70]" Out;
+    "apbo[98]" Out;
+    "apbo[99]" Out;
+    "apbo[71]" Out;
+    "apbo[72]" Out;
+    "apbo[73]" Out;
+    "apbo[74]" Out;
+    "apbo[75]" Out;
+    "apbo[76]" Out;
+    "apbo[77]" Out;
+    "apbo[100]" Out;
+    "apbo[110]" Out;
+    "apbo[111]" Out;
+    "apbo[112]" Out;
+    "apbo[113]" Out;
+    "apbo[114]" Out;
+    "apbo[115]" Out;
+    "apbo[116]" Out;
+    "apbo[117]" Out;
+    "apbo[118]" Out;
+    "apbo[119]" Out;
+    "apbo[101]" Out;
+    "apbo[120]" Out;
+    "apbo[121]" Out;
+    "apbo[122]" Out;
+    "apbo[123]" Out;
+    "apbo[124]" Out;
+    "apbo[125]" Out;
+    "apbo[126]" Out;
+    "apbo[127]" Out;
+    "apbo[128]" Out;
+    "apbo[129]" Out;
+    "apbo[102]" Out;
+    "apbo[130]" Out;
+    "apbo[131]" Out;
+    "apbo[103]" Out;
+    "apbo[104]" Out;
+    "apbo[105]" Out;
+    "apbo[106]" Out;
+    "apbo[107]" Out;
+    "apbo[108]" Out;
+    "apbo[109]" Out;
+    "testout" Out;
+    "uarto_fLOW" Out;
+    "uarto_rTSN" Out;
+    "uarto_rXEN" Out;
+    "uarto_sCALER_0_" Out;
+    "uarto_sCALER_10_" Out;
+    "uarto_sCALER_11_" Out;
+    "uarto_sCALER_12_" Out;
+    "uarto_sCALER_13_" Out;
+    "uarto_sCALER_14_" Out;
+    "uarto_sCALER_15_" Out;
+    "uarto_sCALER_16_" Out;
+    "uarto_sCALER_17_" Out;
+    "uarto_sCALER_18_" Out;
+    "uarto_sCALER_19_" Out;
+    "uarto_sCALER_1_" Out;
+    "uarto_sCALER_20_" Out;
+    "uarto_sCALER_21_" Out;
+    "uarto_sCALER_22_" Out;
+    "uarto_sCALER_23_" Out;
+    "uarto_sCALER_24_" Out;
+    "uarto_sCALER_25_" Out;
+    "uarto_sCALER_26_" Out;
+    "uarto_sCALER_27_" Out;
+    "uarto_sCALER_28_" Out;
+    "uarto_sCALER_29_" Out;
+    "uarto_sCALER_2_" Out;
+    "uarto_sCALER_30_" Out;
+    "uarto_sCALER_31_" Out;
+    "uarto_sCALER_3_" Out;
+    "uarto_sCALER_4_" Out;
+    "uarto_sCALER_5_" Out;
+    "uarto_sCALER_6_" Out;
+    "uarto_sCALER_7_" Out;
+    "uarto_sCALER_8_" Out;
+    "uarto_sCALER_9_" Out;
+    "uarto_tXD" Out;
+    "uarto_tXEN" Out;
+}
+SignalGroups {
+    "_si" = '"testin"' {
+        ScanIn;
+    }
+    "_so" = '"testout"' {
+        ScanOut;
+    }
+    "_clk" = '"clk"';
+    "all_inputs" = '"apbi_pADDR_0_" + "apbi_pADDR_10_" + "apbi_pADDR_11_" + 
+    "apbi_pADDR_12_" + "apbi_pADDR_13_" + "apbi_pADDR_14_" + "apbi_pADDR_15_" + 
+    "apbi_pADDR_16_" + "apbi_pADDR_17_" + "apbi_pADDR_18_" + "apbi_pADDR_19_" + 
+    "apbi_pADDR_1_" + "apbi_pADDR_20_" + "apbi_pADDR_21_" + "apbi_pADDR_22_" + 
+    "apbi_pADDR_23_" + "apbi_pADDR_24_" + "apbi_pADDR_25_" + "apbi_pADDR_26_" + 
+    "apbi_pADDR_27_" + "apbi_pADDR_28_" + "apbi_pADDR_29_" + "apbi_pADDR_2_" + 
+    "apbi_pADDR_30_" + "apbi_pADDR_31_" + "apbi_pADDR_3_" + "apbi_pADDR_4_" + 
+    "apbi_pADDR_5_" + "apbi_pADDR_6_" + "apbi_pADDR_7_" + "apbi_pADDR_8_" + 
+    "apbi_pADDR_9_" + "apbi_pENABLE" + "apbi_pIRQ_0_" + "apbi_pIRQ_10_" + 
+    "apbi_pIRQ_11_" + "apbi_pIRQ_12_" + "apbi_pIRQ_13_" + "apbi_pIRQ_14_" + 
+    "apbi_pIRQ_15_" + "apbi_pIRQ_16_" + "apbi_pIRQ_17_" + "apbi_pIRQ_18_" + 
+    "apbi_pIRQ_19_" + "apbi_pIRQ_1_" + "apbi_pIRQ_20_" + "apbi_pIRQ_21_" + 
+    "apbi_pIRQ_22_" + "apbi_pIRQ_23_" + "apbi_pIRQ_24_" + "apbi_pIRQ_25_" + 
+    "apbi_pIRQ_26_" + "apbi_pIRQ_27_" + "apbi_pIRQ_28_" + "apbi_pIRQ_29_" + 
+    "apbi_pIRQ_2_" + "apbi_pIRQ_30_" + "apbi_pIRQ_31_" + "apbi_pIRQ_3_" + 
+    "apbi_pIRQ_4_" + "apbi_pIRQ_5_" + "apbi_pIRQ_6_" + "apbi_pIRQ_7_" + 
+    "apbi_pIRQ_8_" + "apbi_pIRQ_9_" + "apbi_pSEL_0_" + "apbi_pSEL_10_" + 
+    "apbi_pSEL_11_" + "apbi_pSEL_12_" + "apbi_pSEL_13_" + "apbi_pSEL_14_" + 
+    "apbi_pSEL_15_" + "apbi_pSEL_1_" + "apbi_pSEL_2_" + "apbi_pSEL_3_" + 
+    "apbi_pSEL_4_" + "apbi_pSEL_5_" + "apbi_pSEL_6_" + "apbi_pSEL_7_" + 
+    "apbi_pSEL_8_" + "apbi_pSEL_9_" + "apbi_pWDATA_0_" + "apbi_pWDATA_10_" + 
+    "apbi_pWDATA_11_" + "apbi_pWDATA_12_" + "apbi_pWDATA_13_" + 
+    "apbi_pWDATA_14_" + "apbi_pWDATA_15_" + "apbi_pWDATA_16_" + 
+    "apbi_pWDATA_17_" + "apbi_pWDATA_18_" + "apbi_pWDATA_19_" + "apbi_pWDATA_1_" 
+    + "apbi_pWDATA_20_" + "apbi_pWDATA_21_" + "apbi_pWDATA_22_" + 
+    "apbi_pWDATA_23_" + "apbi_pWDATA_24_" + "apbi_pWDATA_25_" + 
+    "apbi_pWDATA_26_" + "apbi_pWDATA_27_" + "apbi_pWDATA_28_" + 
+    "apbi_pWDATA_29_" + "apbi_pWDATA_2_" + "apbi_pWDATA_30_" + "apbi_pWDATA_31_" 
+    + "apbi_pWDATA_3_" + "apbi_pWDATA_4_" + "apbi_pWDATA_5_" + "apbi_pWDATA_6_" 
+    + "apbi_pWDATA_7_" + "apbi_pWDATA_8_" + "apbi_pWDATA_9_" + "apbi_pWRITE" + 
+    "apbi_sCANEN" + "apbi_tESTEN" + "apbi_tESTIN_0_" + "apbi_tESTIN_1_" + 
+    "apbi_tESTIN_2_" + "apbi_tESTIN_3_" + "apbi_tESTOEN" + "apbi_tESTRST" + 
+    "clk" + "rst" + "testen" + "testin" + "testrst" + "uarti_cTSN" + 
+    "uarti_eXTCLK" + "uarti_rXD"';
+    "all_outputs" = '"apbo[36]" + "apbo[46]" + "apbo[47]" + "apbo[48]" + 
+    "apbo[49]" + "apbo[50]" + "apbo[51]" + "apbo[52]" + "apbo[53]" + "apbo[54]" 
+    + "apbo[55]" + "apbo[37]" + "apbo[56]" + "apbo[57]" + "apbo[58]" + 
+    "apbo[59]" + "apbo[60]" + "apbo[61]" + "apbo[62]" + "apbo[63]" + "apbo[64]" 
+    + "apbo[65]" + "apbo[38]" + "apbo[66]" + "apbo[67]" + "apbo[39]" + 
+    "apbo[40]" + "apbo[41]" + "apbo[42]" + "apbo[43]" + "apbo[44]" + "apbo[45]" 
+    + "apbo[4]" + "apbo[14]" + "apbo[15]" + "apbo[16]" + "apbo[17]" + "apbo[18]" 
+    + "apbo[19]" + "apbo[20]" + "apbo[21]" + "apbo[22]" + "apbo[23]" + "apbo[5]" 
+    + "apbo[24]" + "apbo[25]" + "apbo[26]" + "apbo[27]" + "apbo[28]" + 
+    "apbo[29]" + "apbo[30]" + "apbo[31]" + "apbo[32]" + "apbo[33]" + "apbo[6]" + 
+    "apbo[34]" + "apbo[35]" + "apbo[7]" + "apbo[8]" + "apbo[9]" + "apbo[10]" + 
+    "apbo[11]" + "apbo[12]" + "apbo[13]" + "apbo[0]" + "apbo[1]" + "apbo[2]" + 
+    "apbo[3]" + "apbo[68]" + "apbo[78]" + "apbo[79]" + "apbo[80]" + "apbo[81]" + 
+    "apbo[82]" + "apbo[83]" + "apbo[84]" + "apbo[85]" + "apbo[86]" + "apbo[87]" 
+    + "apbo[69]" + "apbo[88]" + "apbo[89]" + "apbo[90]" + "apbo[91]" + 
+    "apbo[92]" + "apbo[93]" + "apbo[94]" + "apbo[95]" + "apbo[96]" + "apbo[97]" 
+    + "apbo[70]" + "apbo[98]" + "apbo[99]" + "apbo[71]" + "apbo[72]" + 
+    "apbo[73]" + "apbo[74]" + "apbo[75]" + "apbo[76]" + "apbo[77]" + "apbo[100]" 
+    + "apbo[110]" + "apbo[111]" + "apbo[112]" + "apbo[113]" + "apbo[114]" + 
+    "apbo[115]" + "apbo[116]" + "apbo[117]" + "apbo[118]" + "apbo[119]" + 
+    "apbo[101]" + "apbo[120]" + "apbo[121]" + "apbo[122]" + "apbo[123]" + 
+    "apbo[124]" + "apbo[125]" + "apbo[126]" + "apbo[127]" + "apbo[128]" + 
+    "apbo[129]" + "apbo[102]" + "apbo[130]" + "apbo[131]" + "apbo[103]" + 
+    "apbo[104]" + "apbo[105]" + "apbo[106]" + "apbo[107]" + "apbo[108]" + 
+    "apbo[109]" + "testout" + "uarto_fLOW" + "uarto_rTSN" + "uarto_rXEN" + 
+    "uarto_sCALER_0_" + "uarto_sCALER_10_" + "uarto_sCALER_11_" + 
+    "uarto_sCALER_12_" + "uarto_sCALER_13_" + "uarto_sCALER_14_" + 
+    "uarto_sCALER_15_" + "uarto_sCALER_16_" + "uarto_sCALER_17_" + 
+    "uarto_sCALER_18_" + "uarto_sCALER_19_" + "uarto_sCALER_1_" + 
+    "uarto_sCALER_20_" + "uarto_sCALER_21_" + "uarto_sCALER_22_" + 
+    "uarto_sCALER_23_" + "uarto_sCALER_24_" + "uarto_sCALER_25_" + 
+    "uarto_sCALER_26_" + "uarto_sCALER_27_" + "uarto_sCALER_28_" + 
+    "uarto_sCALER_29_" + "uarto_sCALER_2_" + "uarto_sCALER_30_" + 
+    "uarto_sCALER_31_" + "uarto_sCALER_3_" + "uarto_sCALER_4_" + 
+    "uarto_sCALER_5_" + "uarto_sCALER_6_" + "uarto_sCALER_7_" + 
+    "uarto_sCALER_8_" + "uarto_sCALER_9_" + "uarto_tXD" + "uarto_tXEN"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"apbi_pADDR_0_" + "apbi_pADDR_10_" + "apbi_pADDR_11_" + 
+    "apbi_pADDR_12_" + "apbi_pADDR_13_" + "apbi_pADDR_14_" + "apbi_pADDR_15_" + 
+    "apbi_pADDR_16_" + "apbi_pADDR_17_" + "apbi_pADDR_18_" + "apbi_pADDR_19_" + 
+    "apbi_pADDR_1_" + "apbi_pADDR_20_" + "apbi_pADDR_21_" + "apbi_pADDR_22_" + 
+    "apbi_pADDR_23_" + "apbi_pADDR_24_" + "apbi_pADDR_25_" + "apbi_pADDR_26_" + 
+    "apbi_pADDR_27_" + "apbi_pADDR_28_" + "apbi_pADDR_29_" + "apbi_pADDR_2_" + 
+    "apbi_pADDR_30_" + "apbi_pADDR_31_" + "apbi_pADDR_3_" + "apbi_pADDR_4_" + 
+    "apbi_pADDR_5_" + "apbi_pADDR_6_" + "apbi_pADDR_7_" + "apbi_pADDR_8_" + 
+    "apbi_pADDR_9_" + "apbi_pENABLE" + "apbi_pIRQ_0_" + "apbi_pIRQ_10_" + 
+    "apbi_pIRQ_11_" + "apbi_pIRQ_12_" + "apbi_pIRQ_13_" + "apbi_pIRQ_14_" + 
+    "apbi_pIRQ_15_" + "apbi_pIRQ_16_" + "apbi_pIRQ_17_" + "apbi_pIRQ_18_" + 
+    "apbi_pIRQ_19_" + "apbi_pIRQ_1_" + "apbi_pIRQ_20_" + "apbi_pIRQ_21_" + 
+    "apbi_pIRQ_22_" + "apbi_pIRQ_23_" + "apbi_pIRQ_24_" + "apbi_pIRQ_25_" + 
+    "apbi_pIRQ_26_" + "apbi_pIRQ_27_" + "apbi_pIRQ_28_" + "apbi_pIRQ_29_" + 
+    "apbi_pIRQ_2_" + "apbi_pIRQ_30_" + "apbi_pIRQ_31_" + "apbi_pIRQ_3_" + 
+    "apbi_pIRQ_4_" + "apbi_pIRQ_5_" + "apbi_pIRQ_6_" + "apbi_pIRQ_7_" + 
+    "apbi_pIRQ_8_" + "apbi_pIRQ_9_" + "apbi_pSEL_0_" + "apbi_pSEL_10_" + 
+    "apbi_pSEL_11_" + "apbi_pSEL_12_" + "apbi_pSEL_13_" + "apbi_pSEL_14_" + 
+    "apbi_pSEL_15_" + "apbi_pSEL_1_" + "apbi_pSEL_2_" + "apbi_pSEL_3_" + 
+    "apbi_pSEL_4_" + "apbi_pSEL_5_" + "apbi_pSEL_6_" + "apbi_pSEL_7_" + 
+    "apbi_pSEL_8_" + "apbi_pSEL_9_" + "apbi_pWDATA_0_" + "apbi_pWDATA_10_" + 
+    "apbi_pWDATA_11_" + "apbi_pWDATA_12_" + "apbi_pWDATA_13_" + 
+    "apbi_pWDATA_14_" + "apbi_pWDATA_15_" + "apbi_pWDATA_16_" + 
+    "apbi_pWDATA_17_" + "apbi_pWDATA_18_" + "apbi_pWDATA_19_" + "apbi_pWDATA_1_" 
+    + "apbi_pWDATA_20_" + "apbi_pWDATA_21_" + "apbi_pWDATA_22_" + 
+    "apbi_pWDATA_23_" + "apbi_pWDATA_24_" + "apbi_pWDATA_25_" + 
+    "apbi_pWDATA_26_" + "apbi_pWDATA_27_" + "apbi_pWDATA_28_" + 
+    "apbi_pWDATA_29_" + "apbi_pWDATA_2_" + "apbi_pWDATA_30_" + "apbi_pWDATA_31_" 
+    + "apbi_pWDATA_3_" + "apbi_pWDATA_4_" + "apbi_pWDATA_5_" + "apbi_pWDATA_6_" 
+    + "apbi_pWDATA_7_" + "apbi_pWDATA_8_" + "apbi_pWDATA_9_" + "apbi_pWRITE" + 
+    "apbi_sCANEN" + "apbi_tESTEN" + "apbi_tESTIN_0_" + "apbi_tESTIN_1_" + 
+    "apbi_tESTIN_2_" + "apbi_tESTIN_3_" + "apbi_tESTOEN" + "apbi_tESTRST" + 
+    "clk" + "rst" + "testen" + "testin" + "testrst" + "uarti_cTSN" + 
+    "uarti_eXTCLK" + "uarti_rXD"';
+    "_po" = '"apbo[36]" + "apbo[46]" + "apbo[47]" + "apbo[48]" + "apbo[49]" + 
+    "apbo[50]" + "apbo[51]" + "apbo[52]" + "apbo[53]" + "apbo[54]" + "apbo[55]" 
+    + "apbo[37]" + "apbo[56]" + "apbo[57]" + "apbo[58]" + "apbo[59]" + 
+    "apbo[60]" + "apbo[61]" + "apbo[62]" + "apbo[63]" + "apbo[64]" + "apbo[65]" 
+    + "apbo[38]" + "apbo[66]" + "apbo[67]" + "apbo[39]" + "apbo[40]" + 
+    "apbo[41]" + "apbo[42]" + "apbo[43]" + "apbo[44]" + "apbo[45]" + "apbo[4]" + 
+    "apbo[14]" + "apbo[15]" + "apbo[16]" + "apbo[17]" + "apbo[18]" + "apbo[19]" 
+    + "apbo[20]" + "apbo[21]" + "apbo[22]" + "apbo[23]" + "apbo[5]" + "apbo[24]" 
+    + "apbo[25]" + "apbo[26]" + "apbo[27]" + "apbo[28]" + "apbo[29]" + 
+    "apbo[30]" + "apbo[31]" + "apbo[32]" + "apbo[33]" + "apbo[6]" + "apbo[34]" + 
+    "apbo[35]" + "apbo[7]" + "apbo[8]" + "apbo[9]" + "apbo[10]" + "apbo[11]" + 
+    "apbo[12]" + "apbo[13]" + "apbo[0]" + "apbo[1]" + "apbo[2]" + "apbo[3]" + 
+    "apbo[68]" + "apbo[78]" + "apbo[79]" + "apbo[80]" + "apbo[81]" + "apbo[82]" 
+    + "apbo[83]" + "apbo[84]" + "apbo[85]" + "apbo[86]" + "apbo[87]" + 
+    "apbo[69]" + "apbo[88]" + "apbo[89]" + "apbo[90]" + "apbo[91]" + "apbo[92]" 
+    + "apbo[93]" + "apbo[94]" + "apbo[95]" + "apbo[96]" + "apbo[97]" + 
+    "apbo[70]" + "apbo[98]" + "apbo[99]" + "apbo[71]" + "apbo[72]" + "apbo[73]" 
+    + "apbo[74]" + "apbo[75]" + "apbo[76]" + "apbo[77]" + "apbo[100]" + 
+    "apbo[110]" + "apbo[111]" + "apbo[112]" + "apbo[113]" + "apbo[114]" + 
+    "apbo[115]" + "apbo[116]" + "apbo[117]" + "apbo[118]" + "apbo[119]" + 
+    "apbo[101]" + "apbo[120]" + "apbo[121]" + "apbo[122]" + "apbo[123]" + 
+    "apbo[124]" + "apbo[125]" + "apbo[126]" + "apbo[127]" + "apbo[128]" + 
+    "apbo[129]" + "apbo[102]" + "apbo[130]" + "apbo[131]" + "apbo[103]" + 
+    "apbo[104]" + "apbo[105]" + "apbo[106]" + "apbo[107]" + "apbo[108]" + 
+    "apbo[109]" + "testout" + "uarto_fLOW" + "uarto_rTSN" + "uarto_rXEN" + 
+    "uarto_sCALER_0_" + "uarto_sCALER_10_" + "uarto_sCALER_11_" + 
+    "uarto_sCALER_12_" + "uarto_sCALER_13_" + "uarto_sCALER_14_" + 
+    "uarto_sCALER_15_" + "uarto_sCALER_16_" + "uarto_sCALER_17_" + 
+    "uarto_sCALER_18_" + "uarto_sCALER_19_" + "uarto_sCALER_1_" + 
+    "uarto_sCALER_20_" + "uarto_sCALER_21_" + "uarto_sCALER_22_" + 
+    "uarto_sCALER_23_" + "uarto_sCALER_24_" + "uarto_sCALER_25_" + 
+    "uarto_sCALER_26_" + "uarto_sCALER_27_" + "uarto_sCALER_28_" + 
+    "uarto_sCALER_29_" + "uarto_sCALER_2_" + "uarto_sCALER_30_" + 
+    "uarto_sCALER_31_" + "uarto_sCALER_3_" + "uarto_sCALER_4_" + 
+    "uarto_sCALER_5_" + "uarto_sCALER_6_" + "uarto_sCALER_7_" + 
+    "uarto_sCALER_8_" + "uarto_sCALER_9_" + "uarto_tXD" + "uarto_tXEN"';
+}
+ScanStructures {
+    ScanChain "c_sys" {
+        ScanLength 116;
+        ScanIn "testin";
+        ScanOut "testout";
+        ScanEnable "testen";
+        ScanMasterClock "clk";
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "clk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_multiclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "clk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "clk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "clk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "clk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "multiclock_capture" {
+        W "_multiclock_capture_WFT_";
+        C {
+            "all_inputs" = \r122 N 0 \r7 N;
+            "all_outputs" = \r170 X;
+        }
+        V {
+            "_pi" = \r130 #;
+            "_po" = \r170 #;
+        }
+    }
+    "allclock_capture" {
+        W "_allclock_capture_WFT_";
+        C {
+            "all_inputs" = \r122 N 0 \r7 N;
+            "all_outputs" = \r170 X;
+        }
+        V {
+            "_pi" = \r130 #;
+            "_po" = \r170 #;
+        }
+    }
+    "allclock_launch" {
+        W "_allclock_launch_WFT_";
+        C {
+            "all_inputs" = \r122 N 0 \r7 N;
+            "all_outputs" = \r170 X;
+        }
+        V {
+            "_pi" = \r130 #;
+            "_po" = \r170 #;
+        }
+    }
+    "allclock_launch_capture" {
+        W "_allclock_launch_capture_WFT_";
+        C {
+            "all_inputs" = \r122 N 0 \r7 N;
+            "all_outputs" = \r170 X;
+        }
+        V {
+            "_pi" = \r130 #;
+            "_po" = \r170 #;
+        }
+    }
+    "load_unload" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r122 N 0 \r7 N;
+            "all_outputs" = \r170 X;
+        }
+        "Internal_scan_pre_shift" : V {
+            "testen" = 1;
+        }
+        Shift {
+            V {
+                "_clk" = P;
+                "_si" = #;
+                "_so" = #;
+            }
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r130 N;
+            "all_outputs" = \r170 X;
+        }
+        V {
+            "clk" = 0;
+        }
+        V {
+        }
+    }
+}
+
